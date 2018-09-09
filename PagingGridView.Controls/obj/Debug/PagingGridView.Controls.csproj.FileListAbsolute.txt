@@ -1,0 +1,7 @@
+C:\Users\CFLiong\source\repos\SEOAnalyzer\PagingGridView.Controls\bin\Debug\BrightStar.Retail.PagingGridView.Controls.dll
+C:\Users\CFLiong\source\repos\SEOAnalyzer\PagingGridView.Controls\bin\Debug\BrightStar.Retail.PagingGridView.Controls.pdb
+C:\Users\CFLiong\source\repos\SEOAnalyzer\PagingGridView.Controls\obj\Debug\BrightStar.Retail.PagingGridView.Controls.Properties.Resources.resources
+C:\Users\CFLiong\source\repos\SEOAnalyzer\PagingGridView.Controls\obj\Debug\PagingGridView.Controls.csproj.GenerateResource.cache
+C:\Users\CFLiong\source\repos\SEOAnalyzer\PagingGridView.Controls\obj\Debug\PagingGridView.Controls.csproj.CoreCompileInputs.cache
+C:\Users\CFLiong\source\repos\SEOAnalyzer\PagingGridView.Controls\obj\Debug\BrightStar.Retail.PagingGridView.Controls.dll
+C:\Users\CFLiong\source\repos\SEOAnalyzer\PagingGridView.Controls\obj\Debug\BrightStar.Retail.PagingGridView.Controls.pdb
