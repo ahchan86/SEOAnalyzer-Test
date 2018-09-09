@@ -35,9 +35,19 @@ namespace SEOAnalyzer
             dgvWord1.DataSource = dt;
             dgvWord1.DataBind();
 
-            DataTable dtURL = LoadExternalURL();
-            gvURL.DataSource = dtURL;
-            gvURL.DataBind();
+            bool isURL = Util.IsURLValidAsync(txtURL.Text);
+            if(isURL)
+            {
+                spExternalURL.Visible = true;
+                DataTable dtURL = LoadExternalURL();
+                gvURL.DataSource = dtURL;
+                gvURL.DataBind();
+
+            }
+            else
+            {
+                spExternalURL.Visible = false;
+            }
 
 
             spanResult.Visible = true;
@@ -67,7 +77,7 @@ namespace SEOAnalyzer
             bool isURL = Util.IsURLValidAsync(txtURL.Text);
 
 
-            Dictionary<string, int> text = Util.GetAllWordsInfo(txtURL.Text, true, isURL);
+            Dictionary<string, int> text = Util.GetAllWordsInfo(txtURL.Text, chkFilterStopWord.Checked, isURL);
             dt.Columns.AddRange(new DataColumn[2] { new DataColumn("word", typeof(string)),
                     new DataColumn("numOccur", typeof(int)) });
 

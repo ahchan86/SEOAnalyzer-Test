@@ -9,6 +9,8 @@
             <h1>Please enter URL / Text</h1>
             <p>
                 <asp:TextBox runat="server" Width="700px" ID="txtURL"></asp:TextBox><asp:Button runat="server" ID="btnSubmit" Text="Submit" OnClick="btnSubmit_Click" />
+                <br />
+                <span><asp:CheckBox ID="chkFilterStopWord" runat="server" Text=" Filters out stop-words"/></span>
             </p>
         </div>
 
@@ -66,7 +68,7 @@
             <SortedDescendingCellStyle BackColor="#E9EBEF" />
             <SortedDescendingHeaderStyle BackColor="#4870BE" />
     </asp:GridView>
-
+        <span id="spExternalURL" runat="server">
         <br />
         <h2>Number of External URL Link</h2>
     <asp:GridView runat="server" AllowPaging="True" ID="gvURL" AllowSorting="true" CssClass="table table-hover table-striped" OnPageIndexChanging="gvURL_PageIndexChanging" AutoGenerateColumns="False" CellPadding="4" ForeColor="#333333" GridLines="None" OnSorting="gvURL_Sorting" >
@@ -104,7 +106,7 @@
             <SortedDescendingCellStyle BackColor="#E9EBEF" />
             <SortedDescendingHeaderStyle BackColor="#4870BE" />
     </asp:GridView>
-
+</span>
 
         </span>
 

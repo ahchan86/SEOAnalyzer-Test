@@ -133,6 +133,7 @@ namespace SEOAnalyzer.Helper
 
         public static Dictionary<string, int> GetAllExternalLinks(string searchText)
         {
+
             var web = new HtmlAgilityPack.HtmlWeb();
             var doc = web.Load(searchText);
             var nodeSingle = doc.DocumentNode.SelectSingleNode("//html");

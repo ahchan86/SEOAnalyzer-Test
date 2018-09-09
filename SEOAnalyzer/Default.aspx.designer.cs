@@ -31,6 +31,15 @@ namespace SEOAnalyzer {
         protected global::System.Web.UI.WebControls.Button btnSubmit;
         
         /// <summary>
+        /// chkFilterStopWord control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox chkFilterStopWord;
+        
+        /// <summary>
         /// spanResult control.
         /// </summary>
         /// <remarks>
@@ -47,6 +56,15 @@ namespace SEOAnalyzer {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView dgvWord1;
+        
+        /// <summary>
+        /// spExternalURL control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl spExternalURL;
         
         /// <summary>
         /// gvURL control.
